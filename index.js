@@ -2,6 +2,7 @@
   'use strict';
 
 
+  console.log('hello welcome to pingy.');
 
   function getSiteContent(src) {
     var http = require('http');
@@ -29,7 +30,7 @@
 
   var later = require('later'),
     cron;
-  cron = later.parse.cron('0,10,20,30,40,50 7-23 * * * *');
+  cron = later.parse.cron('0,10,20,30,40,50 7-22 * * * *');
 
   // function to execute
   function logTime() {
