@@ -30,7 +30,7 @@
 
   var later = require('later'),
     cron;
-  cron = later.parse.cron('0,15,30,45 7-22 * * * *');
+  cron = later.parse.cron('00,15,30,45 08-21 * * * *');
 
   // function to execute
   function logTime() {
