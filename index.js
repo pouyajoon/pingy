@@ -30,6 +30,7 @@
 
   var later = require('later'),
     cron;
+  later.date.localTime();
   cron = later.parse.cron('00,15,30,45 08-20 * * * *');
 
   // function to execute
